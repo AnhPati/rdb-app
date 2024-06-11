@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backgroundHero from "./../../assets/hero-rdb.jpg"
 
 const Hero = () => {
     return (
@@ -22,6 +23,7 @@ const HeroStyled = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
+    background: linear-gradient(60deg, #F5FBF5, 85%, transparent),right url(${backgroundHero});
 
     .logo-container {
         width: 190px;
