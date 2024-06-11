@@ -1,9 +1,9 @@
+import Home from "./components/pages/Home"
+
 const App = () => {
 
   return (
-    <div>
-      App
-    </div>
+    <Home />
   )
 }
 
