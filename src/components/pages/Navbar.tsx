@@ -24,4 +24,7 @@ const NavbarStyled = styled.nav`
   bottom: 0;
   top: -60px;
   z-index: 1;
+  padding: 10px 10px;
+  background: #3e9b4f;
+  color: #FFF;
 `;
