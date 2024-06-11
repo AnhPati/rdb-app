@@ -10,7 +10,7 @@ const Hero = () => {
                 </div>
                 <div className="logo-title-container">
                     <h1>Ruta <span>del Bienestar</span></h1>
-                    <sub>- Jardin -</sub>
+                    <sub>- en Jardín -</sub>
                 </div>
             </div>
         </HeroStyled>
@@ -50,6 +50,8 @@ const HeroStyled = styled.div`
                 align-items: center;
                 margin: 0;
                 font-size: 72px;
+                font-weight: 500;
+                line-height: 0.9;
 
                 span {
                     font-size: 24px;
@@ -57,7 +59,10 @@ const HeroStyled = styled.div`
             }
 
             sub {
+                margin-top: 5px;
+                font-family: "Noto Serif", serif;
                 font-size: 18px;
+                font-weight: 300;
             }
         }
     }
