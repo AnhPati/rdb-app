@@ -1,10 +1,25 @@
 import styled from "styled-components";
+import { LogoContainer } from "../ui/LogoContainer";
 
 const Navbar = () => {
     return (
         <NavbarStyled>
-            <div>
-                NavContainer
+            <div className="nav-container">
+                <LogoContainer />
+                <div className="buttons-container">
+                    <button>
+                        Up !!
+                    </button>
+                    <button>
+                        Up
+                    </button>
+                    <button>
+                        Down
+                    </button>
+                    <button>
+                        Down !!
+                    </button>
+                </div>
             </div>
             <div>
                 SortContainer
