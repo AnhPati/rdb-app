@@ -1,13 +1,18 @@
+import styled from "styled-components"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
 
 const Home = () => {
     return (
-        <div>
+        <HomeStyled>
             <Hero />
             <Navbar />
-        </div>
+        </HomeStyled>
     )
 }
 
 export default Home
+
+const HomeStyled = styled.div`
+  position: relative;
+`;

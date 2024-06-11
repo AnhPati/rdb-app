@@ -20,4 +20,8 @@ const NavbarStyled = styled.nav`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  top: -60px;
+  z-index: 1;
 `;
