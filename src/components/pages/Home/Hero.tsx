@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import backgroundHero from "./../../assets/hero-rdb.jpg";
-import { LogoContainer } from "./../ui/LogoContainer";
+import backgroundHero from "./../../../assets/hero-rdb.jpg";
+import { LogoContainer } from "../../ui/LogoContainer";
 
 const Hero = () => {
     return (

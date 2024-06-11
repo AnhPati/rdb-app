@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { LogoContainer } from "../ui/LogoContainer";
+import { LogoContainer } from "../../ui/LogoContainer";
 import { LuArrowDown, LuArrowDownToLine, LuArrowUp, LuArrowUpToLine } from "react-icons/lu";
 
 const Navbar = () => {
