@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { LogoContainer } from "../ui/LogoContainer";
+import { LuArrowDown, LuArrowDownToLine, LuArrowUp, LuArrowUpToLine } from "react-icons/lu";
 
 const Navbar = () => {
     return (
@@ -8,16 +9,16 @@ const Navbar = () => {
                 <LogoContainer />
                 <div className="buttons-container">
                     <button>
-                        Up !!
+                        <LuArrowDownToLine />
                     </button>
                     <button>
-                        Up
+                        <LuArrowDown />
                     </button>
                     <button>
-                        Down
+                        <LuArrowUp />
                     </button>
                     <button>
-                        Down !!
+                        <LuArrowUpToLine />
                     </button>
                 </div>
             </div>
@@ -44,7 +45,9 @@ const NavbarStyled = styled.nav`
   color: #FFF;
 
   .nav-container {
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 `;
