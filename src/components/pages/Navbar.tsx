@@ -42,4 +42,9 @@ const NavbarStyled = styled.nav`
   padding: 10px 10px;
   background: #3e9b4f;
   color: #FFF;
+
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+  }
 `;
