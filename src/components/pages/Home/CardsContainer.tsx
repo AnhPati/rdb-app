@@ -28,15 +28,21 @@ const CardsContainerStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
 
     section {
+        position: relative;
         max-width: 900px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: #E9F6E9;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &:nth-child(even) {
+            background: #F5FBF5;
+        }
 
         .event-hero {
             display: flex;
@@ -47,7 +53,7 @@ const CardsContainerStyled = styled.div`
             .img-container {
                 border-radius: 50% 50% 0 0;
                 overflow: hidden;
-                
+
                 img {
                     width: 100%;
                 }
