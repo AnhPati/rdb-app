@@ -1,7 +1,9 @@
+import styled from 'styled-components'
 import { users } from './../../../data/usersData'
+
 const CardsContainer = () => {
     return (
-        <div>
+        <CardsContainerStyled>
             {users.map(user => {
                 return (
                     <section>
@@ -10,8 +12,15 @@ const CardsContainer = () => {
                     </section>
                 )
             })}
-        </div>
+        </CardsContainerStyled>
     )
 }
 
 export default CardsContainer
+
+const CardsContainerStyled = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
