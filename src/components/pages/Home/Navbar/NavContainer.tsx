@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { LogoContainer } from "../../ui/LogoContainer";
+import { LogoContainer } from "../../../ui/LogoContainer";
 import { NavButton } from "./NavButton";
 import { navButtonsConfig } from "./navButtonsConfig";
 
