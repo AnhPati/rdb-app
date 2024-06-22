@@ -7,8 +7,13 @@ const CardsContainer = () => {
             {users.map(user => {
                 return (
                     <section>
-                        <h2>{user.event.eventName}</h2>
-                        <img src={user.event.eventImgs[0]} alt={user.event.eventName} />
+                        <div className='event-hero'>
+                            <h2>{user.event.eventName}</h2>
+                            <div className='img-container'>
+                                <img src={user.event.eventImgs[0]} alt={user.event.eventName} />
+                            </div>
+                        </div>
+
                     </section>
                 )
             })}
@@ -32,5 +37,21 @@ const CardsContainerStyled = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        .event-hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .img-container {
+                border-radius: 50% 50% 0 0;
+                overflow: hidden;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 `;
