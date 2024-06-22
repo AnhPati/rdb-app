@@ -7,13 +7,12 @@ const CardsContainer = () => {
             {users.map(user => {
                 return (
                     <section>
-                        <div className='event-hero'>
+                        <div className='card-hero'>
                             <h2>{user.event.eventName}</h2>
                             <div className='img-container'>
                                 <img src={user.event.eventImgs[0]} alt={user.event.eventName} />
                             </div>
                         </div>
-
                     </section>
                 )
             })}
