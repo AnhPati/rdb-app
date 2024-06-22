@@ -1,4 +1,5 @@
 import { ReactElement } from "react"
+import styled from "styled-components"
 
 type NavButtonPropsType = {
     onClick?: () => unknown,
@@ -7,8 +8,29 @@ type NavButtonPropsType = {
 
 export const NavButton = ({ onClick, Icon }: NavButtonPropsType) => {
     return (
-        <button onClick={onClick}>
+        <NavButtonStyled onClick={onClick}>
             {Icon}
-        </button>
+        </NavButtonStyled>
     )
 }
+
+const NavButtonStyled = styled.button`
+    padding: 10px;
+    background: #3e9b4f;
+    color: #FFF;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+
+    &:hover {
+        background: #FFF;
+        color: #3e9b4f;
+        cursor: pointer;
+    }
+
+    &:active {
+        background: #3e9b4f;
+        color: #FFF;
+    }
+`;
