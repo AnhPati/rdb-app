@@ -13,6 +13,33 @@ const CardsContainer = () => {
                                 <img src={user.event.eventImgs[0]} alt={user.event.eventName} />
                             </div>
                         </div>
+                        <div className="card-infos">
+                            <div className="event-infos">
+                                <div className="infos-container">
+                                    <p>{user.event.eventDescription}</p>
+                                </div>
+                                <div className="infos-container">
+                                    <p>{user.event.eventDate}</p>
+                                    <p>{user.event.meetingPlace}</p>
+                                </div>
+                                <div className="infos-container">
+                                    <p>{user.event.eventTime}</p>
+                                    <p>{user.event.price}.000 $</p>
+                                </div>
+                            </div>
+                            <div className="event-contact">
+                                <div>
+                                    <p>Facilita : {user.planner.plannerName}</p>
+                                </div>
+                                <div>
+                                    <a href={`tel:${user.planner.phone}`}>{user.planner.phone}</a>
+                                    <a href={user.instagram}>{user.companyName}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='available_places-container'>
+                            {user.event.availablePlaces} cupos
+                        </div>
                     </section>
                 )
             })}
@@ -43,7 +70,7 @@ const CardsContainerStyled = styled.div`
             background: #F5FBF5;
         }
 
-        .event-hero {
+        .card-hero {
             display: flex;
             flex-direction: column;
             justify-content: center;

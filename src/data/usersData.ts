@@ -11,7 +11,7 @@ export const users = [
                 'https://www.hablea.com/wp-content/uploads/2017/11/service3.jpg'
             ],
             availablePlaces: 10,
-            price: 20.000,
+            price: 20,
             eventDate: "June 27, 2024",
             eventTime: "15:00:00",
             meetingPlace: "Hacienda 3, Casa de pinos",
@@ -36,7 +36,7 @@ export const users = [
                 'https://www.hablea.com/wp-content/uploads/2017/11/service3.jpg'
             ],
             availablePlaces: 10,
-            price: 20.000,
+            price: 20,
             eventDate: "June 27, 2024",
             eventTime: "15:00:00",
             meetingPlace: "Hacienda 3, Casa de pinos",
@@ -61,7 +61,7 @@ export const users = [
                 'https://www.hablea.com/wp-content/uploads/2017/11/service3.jpg'
             ],
             availablePlaces: 10,
-            price: 20.000,
+            price: 20,
             eventDate: "June 27, 2024",
             eventTime: "15:00:00",
             meetingPlace: "Hacienda 3, Casa de pinos",
@@ -86,7 +86,7 @@ export const users = [
                 'https://www.hablea.com/wp-content/uploads/2017/11/service3.jpg'
             ],
             availablePlaces: 10,
-            price: 20.000,
+            price: 20,
             eventDate: "June 27, 2024",
             eventTime: "15:00:00",
             meetingPlace: "Hacienda 3, Casa de pinos",
@@ -111,7 +111,7 @@ export const users = [
                 'https://www.hablea.com/wp-content/uploads/2017/11/service3.jpg'
             ],
             availablePlaces: 10,
-            price: 20.000,
+            price: 20,
             eventDate: "June 27, 2024",
             eventTime: "15:00:00",
             meetingPlace: "Hacienda 3, Casa de pinos",
@@ -136,7 +136,7 @@ export const users = [
                 'https://www.hablea.com/wp-content/uploads/2017/11/service3.jpg'
             ],
             availablePlaces: 10,
-            price: 20.000,
+            price: 20,
             eventDate: "June 27, 2024",
             eventTime: "15:00:00",
             meetingPlace: "Hacienda 3, Casa de pinos",
