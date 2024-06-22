@@ -21,7 +21,7 @@ const NavbarStyled = styled.nav`
   justify-content: space-around;
   position: sticky;
   bottom: 0;
-  top: -60px;
+  top: 0;
   z-index: 1;
   padding: 10px 10px;
   background: #3e9b4f;
