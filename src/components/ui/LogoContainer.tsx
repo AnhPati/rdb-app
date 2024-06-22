@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
-export const LogoContainer = () => {
+type LogoPropsType = {
+  className?: string
+}
+
+export const LogoContainer = ({ className }: LogoPropsType) => {
   return (
-    <LogoContainerStyled>
+    <LogoContainerStyled className={className}>
       <div className="img-container">
         <img src="/aguacate.svg" alt="Logo de la Ruta del Bienestar" />
       </div>
@@ -15,13 +19,12 @@ export const LogoContainer = () => {
 }
 
 const LogoContainerStyled = styled.div`
-  width: 190px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   .img-container {
-      width: 80px;
+      width: 30px;
 
       img {
           width: 100%;
@@ -38,19 +41,19 @@ const LogoContainerStyled = styled.div`
           flex-direction: column;
           align-items: center;
           margin: 0;
-          font-size: 72px;
+          font-size: 24px;
           font-weight: 500;
           line-height: 0.9;
 
           span {
-              font-size: 24px;
+              font-size: 10px;
           }
       }
 
       sub {
-          margin-top: 5px;
+          margin-top: 2px;
           font-family: "Noto Serif", serif;
-          font-size: 18px;
+          font-size: 8px;
           font-weight: 300;
       }
   }

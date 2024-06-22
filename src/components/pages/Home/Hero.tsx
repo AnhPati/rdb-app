@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import backgroundHero from "./../../assets/hero-rdb.jpg";
-import { LogoContainer } from "./../ui/LogoContainer";
+import backgroundHero from "./../../../assets/hero-rdb.jpg";
+import { LogoContainer } from "../../ui/LogoContainer";
 
 const Hero = () => {
     return (
         <HeroStyled>
-            <LogoContainer />
+            <LogoContainer className={'logo-container'} />
         </HeroStyled>
     )
 }
@@ -17,4 +17,9 @@ const HeroStyled = styled.div`
     display: flex;
     align-items: center;
     background: linear-gradient(60deg, #F5FBF5, 85%, transparent),right url(${backgroundHero});
+
+    .logo-container {
+        transform: scale(2.5);
+        margin-left: 70px;
+    }
 `;

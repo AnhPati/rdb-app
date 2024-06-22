@@ -1,14 +1,13 @@
 import styled from "styled-components";
+import { NavContainer } from "./NavContainer";
 
 const Navbar = () => {
     return (
         <NavbarStyled>
-            <div>
-                NavContainer
-            </div>
-            <div>
+            <NavContainer />
+            {/* <div>
                 SortContainer
-            </div>
+            </div> */}
         </NavbarStyled>
     )
 }
