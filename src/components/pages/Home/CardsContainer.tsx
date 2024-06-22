@@ -63,8 +63,7 @@ const CardsContainerStyled = styled.div`
         justify-content: center;
         align-items: center;
         background: #E9F6E9;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
 
         &:nth-child(even) {
             background: #F5FBF5;
@@ -75,6 +74,14 @@ const CardsContainerStyled = styled.div`
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            gap: 15px;
+            padding: 20px;
+
+            h2 {
+                margin: 0;
+                font-size: 30px;
+                color: #203C25;
+            }
 
             .img-container {
                 border-radius: 50% 50% 0 0;
