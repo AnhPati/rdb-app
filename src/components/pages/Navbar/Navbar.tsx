@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <NavbarStyled>
             <NavContainer />
-            <div>
+            {/* <div>
                 SortContainer
-            </div>
+            </div> */}
         </NavbarStyled>
     )
 }

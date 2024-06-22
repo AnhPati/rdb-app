@@ -31,27 +31,8 @@ const NavContainerStyled = styled.div`
     .buttons-container {
         flex: 1;
         display: flex;
-        justify-content: space-around;
-
-        button {
-            padding: 10px;
-            background: #3e9b4f;
-            color: #FFF;
-            border: solid 1px #FFF;
-            border-radius: 5px;
-            font-size: 20px;
-            font-weight: 500;
-
-            &:hover {
-                background: #FFF;
-                color: #3e9b4f;
-                cursor: pointer;
-            }
-
-            &:active {
-                background: #3e9b4f;
-                color: #FFF;
-            }
-        }
+        justify-content: flex-end;
+        gap: 15px;
+        padding-right: 5px;
     }
 `;
