@@ -1,24 +1,25 @@
 import styled from "styled-components";
 import { LogoContainer } from "../../ui/LogoContainer";
 import { LuArrowDown, LuArrowDownToLine, LuArrowUp, LuArrowUpToLine } from "react-icons/lu";
+import { NavButton } from "./NavButton";
 
 export const NavContainer = () => {
     return (
         <NavContainerStyled>
             <LogoContainer />
             <div className="buttons-container">
-                <button>
-                    <LuArrowDownToLine />
-                </button>
-                <button>
-                    <LuArrowDown />
-                </button>
-                <button>
-                    <LuArrowUp />
-                </button>
-                <button>
-                    <LuArrowUpToLine />
-                </button>
+                <NavButton
+                    Icon={<LuArrowDownToLine />}
+                />
+                <NavButton
+                    Icon={<LuArrowDown />}
+                />
+                <NavButton
+                    Icon={<LuArrowUp />}
+                />
+                <NavButton
+                    Icon={<LuArrowUpToLine />}
+                />
             </div>
         </NavContainerStyled>
     )
