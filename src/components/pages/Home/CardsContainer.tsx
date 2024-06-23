@@ -93,6 +93,42 @@ const CardsContainerStyled = styled.div`
             }
         }
 
+        .card-infos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-direction: column;
+
+            .event-infos {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+                .infos-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 5px;
+
+                    &:nth-child(2) {
+                        border-left: solid red 1px;
+                        border-right: solid red 1px;
+                    }
+
+                    h3 {
+                        font-size: 16px;
+                        margin: 0;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-family: "Noto Serif", serif;;
+                    }
+                }
+            }
+        }
+
         .available_places-container {
             position: absolute;
             top: 10px;
