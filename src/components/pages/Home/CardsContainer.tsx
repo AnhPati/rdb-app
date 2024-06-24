@@ -1,58 +1,58 @@
 import styled from 'styled-components'
-import { users } from './../../../data/usersData'
+import { events } from '../../../data/eventsData'
 import { BsInstagram, BsPhone } from 'react-icons/bs'
 
 const CardsContainer = () => {
     return (
         <CardsContainerStyled>
-            {users.map(user => {
+            {events.map(event => {
                 return (
                     <section>
                         <div className='card-hero'>
                             <h2>
-                                {user.event.title}<br />
-                                <sub>{user.event.subtitle}</sub>
+                                {event.title}<br />
+                                <sub>{event.subtitle}</sub>
                             </h2>
                             <div className='img-container'>
-                                <img src={user.event.imgs[0]} alt={user.event.title} />
+                                <img src={event.imgs[0]} alt={event.title} />
                             </div>
                         </div>
                         <div className="card-infos">
                             <div className="event-infos">
                                 <div className="infos-container">
                                     <p className='event-description'>
-                                        {user.event.description}
+                                        {event.description}
                                     </p>
                                 </div>
                                 <div className="infos-container">
                                     <h3 className='event-date'>
-                                        {user.event.month} {user.event.date}<br />
-                                        <sub>{user.event.day}</sub>
+                                        {event.month} {event.date}<br />
+                                        <sub>{event.day}</sub>
                                     </h3>
                                     <p className='event-location'>
-                                        {user.event.meetingPlace}
+                                        {event.meetingPlace}
                                     </p>
                                 </div>
                                 <div className="infos-container">
                                     <h4 className='event-schedules'>
                                         Horario<br />
-                                        {user.event.shedules}
+                                        {event.shedules}
                                     </h4>
-                                    <p className='event-price'>Aporte {user.event.price}.000 $</p>
+                                    <p className='event-price'>Aporte {event.price}.000 $</p>
                                 </div>
                             </div>
                             <div className="event-contact">
                                 <div>
-                                    <p>Facilita : {user.planner.name}</p>
+                                    <p>Facilita : {event.planner.name}</p>
                                 </div>
                                 <div>
-                                    <a href={`tel:${user.planner.phone}`}><BsPhone /> {user.planner.phone}</a>
-                                    <a href={user.instagram}><BsInstagram /> {user.company.name}</a>
+                                    <a href={`tel:${event.company.phone}`}><BsPhone /> {event.company.phone}</a>
+                                    <a href={event.company.instagram}><BsInstagram /> {event.company.name}</a>
                                 </div>
                             </div>
                         </div>
                         <div className='available_places-container'>
-                            {user.event.availablePlaces} cupos
+                            {event.availablePlaces} cupos
                         </div>
                     </section>
                 )
