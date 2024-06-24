@@ -38,7 +38,11 @@ const CardsContainer = () => {
                                         Horario<br />
                                         <sub>{event.shedules}</sub>
                                     </h3>
-                                    <p className='event-price'>Aporte {event.price}.000 $</p>
+                                    {event.price !== 0 && (
+                                        <p className='event-price'>
+                                            {event.price !== null ? `Aporte ${event.price}.000$` : 'Evento gratis'}
+                                        </p>
+                                    )}
                                 </div>
                             </div>
                             <div className="event-contact">
