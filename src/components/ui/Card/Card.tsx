@@ -1,6 +1,7 @@
 
 import { BsInstagram, BsPhone } from 'react-icons/bs'
 import styled from 'styled-components'
+import { CardHero } from './CardHero'
 
 type EventPropsType = {
     event: {
@@ -33,15 +34,11 @@ type EventPropsType = {
 const Card = ({ event }: EventPropsType) => {
     return (
         <CardStyled>
-            <div className='card-hero'>
-                <h2>
-                    {event.title}<br />
-                    <sub>{event.subtitle}</sub>
-                </h2>
-                <div className='img-container'>
-                    <img src={event.imgs[0]} alt={event.title} />
-                </div>
-            </div>
+            <CardHero
+                title={event.title}
+                subtitle={event.subtitle}
+                img={event.imgs[0]}
+            />
             <div className="card-infos">
                 <div className="event-infos">
                     <div className="infos-container">
@@ -100,41 +97,6 @@ const CardStyled = styled.section`
     align-items: center;
     background: #E9F6E9;
     padding: 10px;
-
-    .card-hero {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        padding: 20px;
-
-        h2 {
-            display: flex;
-            flex-direction: column;
-            margin: 0;
-            color: #203C25;
-            font-size: 24px;
-            font-weight: 600;
-            text-align: center;
-            text-transform: uppercase;
-
-            sub {
-                font-size: 14px;
-                font-weight: 400px;
-                text-transform: capitalize;
-            }
-        }
-
-        .img-container {
-            border-radius: 50% 50% 0 0;
-            overflow: hidden;
-
-            img {
-                width: 100%;
-            }
-        }
-    }
 
     .card-infos {
         display: flex;
