@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { users } from './../../../data/usersData'
+import { BsInstagram, BsPhone } from 'react-icons/bs'
 
 const CardsContainer = () => {
     return (
@@ -8,32 +9,45 @@ const CardsContainer = () => {
                 return (
                     <section>
                         <div className='card-hero'>
-                            <h2>{user.event.eventName}</h2>
+                            <h2>
+                                {user.event.title}<br />
+                                <sub>{user.event.subtitle}</sub>
+                            </h2>
                             <div className='img-container'>
-                                <img src={user.event.eventImgs[0]} alt={user.event.eventName} />
+                                <img src={user.event.imgs[0]} alt={user.event.title} />
                             </div>
                         </div>
                         <div className="card-infos">
                             <div className="event-infos">
                                 <div className="infos-container">
-                                    <p>{user.event.eventDescription}</p>
+                                    <p className='event-description'>
+                                        {user.event.description}
+                                    </p>
                                 </div>
                                 <div className="infos-container">
-                                    <p>{user.event.eventDate}</p>
-                                    <p>{user.event.meetingPlace}</p>
+                                    <h3 className='event-date'>
+                                        {user.event.month} {user.event.date}<br />
+                                        <sub>{user.event.day}</sub>
+                                    </h3>
+                                    <p className='event-location'>
+                                        {user.event.meetingPlace}
+                                    </p>
                                 </div>
                                 <div className="infos-container">
-                                    <p>{user.event.eventTime}</p>
-                                    <p>{user.event.price}.000 $</p>
+                                    <h4 className='event-schedules'>
+                                        Horario<br />
+                                        {user.event.shedules}
+                                    </h4>
+                                    <p className='event-price'>Aporte {user.event.price}.000 $</p>
                                 </div>
                             </div>
                             <div className="event-contact">
                                 <div>
-                                    <p>Facilita : {user.planner.plannerName}</p>
+                                    <p>Facilita : {user.planner.name}</p>
                                 </div>
                                 <div>
-                                    <a href={`tel:${user.planner.phone}`}>{user.planner.phone}</a>
-                                    <a href={user.instagram}>{user.companyName}</a>
+                                    <a href={`tel:${user.planner.phone}`}><BsPhone /> {user.planner.phone}</a>
+                                    <a href={user.instagram}><BsInstagram /> {user.company.name}</a>
                                 </div>
                             </div>
                         </div>
@@ -65,10 +79,6 @@ const CardsContainerStyled = styled.div`
         background: #E9F6E9;
         padding: 10px;
 
-        &:nth-child(even) {
-            background: #F5FBF5;
-        }
-
         .card-hero {
             display: flex;
             flex-direction: column;
@@ -95,10 +105,14 @@ const CardsContainerStyled = styled.div`
 
         .card-infos {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 30px;
-            flex-direction: column;
+            gap: 20px;
+            padding: 10px 0;
+            background: #3E9B4F;
+            color: #FFF;
+            border-radius: 5px;
 
             .event-infos {
                 display: grid;
@@ -111,19 +125,71 @@ const CardsContainerStyled = styled.div`
                     gap: 10px;
                     padding: 5px;
 
-                    &:nth-child(2) {
-                        border-left: solid red 1px;
-                        border-right: solid red 1px;
+                    p {
+                        margin: 0;
+                        font-family: "Noto Serif", serif;
                     }
 
-                    h3 {
-                        font-size: 16px;
-                        margin: 0;
+                    .event-description {
+                        font-size: 12px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-weight: 300;
                     }
+
+                    .event-date {
+                        margin: 0;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+
+                    .event-location {
+                        font-size: 14px;
+                        text-align: center;
+                        font-weight: 300;
+                    }
+
+                    .event-schedules {
+                        margin: 0;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+
+                    .event-price {
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .event-contact {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 0 10px;
+                gap: 10px;
+                
+                div {
+                    display: flex;
+                    justify-content: space-between;
 
                     p {
                         margin: 0;
-                        font-family: "Noto Serif", serif;;
+                        color: #fff;
+                        font-size: 12px;
+                        font-weight: 300;
+                        font-family: "Noto Serif", serif;
+                    }
+
+                    a {
+                        font-size: 12px;
+                        font-family: "Noto Serif", serif;
+                        font-weight: 300;
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
                     }
                 }
             }
