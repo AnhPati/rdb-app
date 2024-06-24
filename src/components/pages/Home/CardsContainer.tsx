@@ -51,9 +51,11 @@ const CardsContainer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='available_places-container'>
-                            {event.availablePlaces} cupos
-                        </div>
+                        {event.availablePlaces !== Infinity && (
+                            <div className='available_places-container'>
+                                {event.availablePlaces} cupos
+                            </div>
+                        )}
                     </section>
                 )
             })}
