@@ -88,9 +88,20 @@ const CardsContainerStyled = styled.div`
             padding: 20px;
 
             h2 {
+                display: flex;
+                flex-direction: column;
                 margin: 0;
-                font-size: 30px;
                 color: #203C25;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+                text-transform: uppercase;
+
+                sub {
+                    font-size: 14px;
+                    font-weight: 400px;
+                    text-transform: capitalize;
+                }
             }
 
             .img-container {
