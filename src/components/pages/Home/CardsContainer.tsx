@@ -34,10 +34,10 @@ const CardsContainer = () => {
                                     </p>
                                 </div>
                                 <div className="infos-container">
-                                    <h4 className='event-schedules'>
+                                    <h3 className='event-schedules'>
                                         Horario<br />
-                                        {event.shedules}
-                                    </h4>
+                                        <sub>{event.shedules}</sub>
+                                    </h3>
                                     <p className='event-price'>Aporte {event.price}.000 $</p>
                                 </div>
                             </div>
@@ -136,7 +136,12 @@ const CardsContainerStyled = styled.div`
                     flex-direction: column;
                     align-items: center;
                     gap: 10px;
-                    padding: 5px;
+                    padding: 0 10px;
+
+                    &:nth-child(2) {
+                        border-left: solid 1px #E9F6E9;
+                        border-right: solid 1px #E9F6E9;
+                    }
 
                     p {
                         margin: 0;
@@ -147,13 +152,18 @@ const CardsContainerStyled = styled.div`
                         font-size: 12px;
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        font-weight: 300;
+                        font-weight: 200;
                     }
 
                     .event-date {
                         margin: 0;
                         font-size: 16px;
+                        font-weight: 600;
                         text-align: center;
+
+                        sub {
+                            font-weight: 500;
+                        }
                     }
 
                     .event-location {
@@ -165,12 +175,13 @@ const CardsContainerStyled = styled.div`
                     .event-schedules {
                         margin: 0;
                         font-size: 16px;
+                        font-weight: 600;
                         text-align: center;
                     }
 
                     .event-price {
-                        font-size: 16px;
-                        font-weight: 400;
+                        font-size: 14px;
+                        font-weight: 300;
                         text-align: center;
                     }
                 }
