@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { EventInfos } from './EventInfos'
+import { EventInfos } from './EventInfos/EventInfos'
 import { EventContact } from './EventContact'
 
 type CardInfosPropsType = {
