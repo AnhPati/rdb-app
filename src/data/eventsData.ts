@@ -33,7 +33,7 @@ export const events = [
         subtitle: 'SALIDA DE CAMPO',
         description: 'menores de 15 años, llevar acompañante adulto',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/forrajeo-de-hongos.jpeg'
         ],
         availablePlaces: 15,
         price: null,
@@ -50,7 +50,7 @@ export const events = [
         },
         planner: {
             name: 'Marcela Arenas',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/marcela-arenas.jpeg',
             description: 'Graduada en Biología, autodidacta y estudiante en bioneuroemoción, formada  como PL, indagadora del mundo metafísico y amante  de los hongos, la naturaleza  y la montaña. De los procesos que experimenta mi ser, deseo compartir, vivencias, herramientas y procesos, bajados a mi propia piel, que me llevan a transitar esta existencia de una manera más expansiva.  Cultivo hongos en casa, para autoconsumo, comparto clases on line y presencial sobre el tema y proporciono “CacaoFungi” con el objetivo de mostrar las microdosis de honguitos Psilocybes, como una herramienta de bien-estar.'
         }
     },
@@ -60,7 +60,7 @@ export const events = [
         subtitle: 'sesión práctica',
         description: 'Una herramienta para aprender a relacionarnos mejorando la comunicación, el lenguaje corporal y la regulación del movimiento en la interacción.',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/biodanza.jpeg'
         ],
         availablePlaces: Infinity,
         price: 12,
@@ -78,7 +78,7 @@ export const events = [
 
         planner: {
             name: 'Aliria Serna E.',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/aliria-serna.jpeg',
             description: 'A lo largo de mi vida he nutrido mi SER a través de diversas disciplinas holísticas y también a través de mi primera profesión, Ingeniería Eléctrica. A finales del 2005 conocí y me enamoré de la Biodanza. Dejé mi profesión de Ingeniera, viaje a San Francisco, CA (USA), donde me formé, me certifique (2012) e inicié mis primeras prácticas en esta nueva profesión y misión de vida. Mi profundización y expansión del Ser continúan. Actualmente vivo y facilito grupo semanal y talleres de Biodanza en Jardín, Ant.'
         }
     },
@@ -144,7 +144,7 @@ export const events = [
         subtitle: 'BOLOÑESA DE BERENJENA',
         description: '',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/de-la-misma-olla.jpeg'
         ],
         availablePlaces: 14,
         price: 20,
@@ -162,7 +162,7 @@ export const events = [
 
         planner: {
             name: 'Andrés Restrepo',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/andres-restrepo',
             description: 'Estudio de todo y no se graduó de nada , se la pasa aprendiendo de cada detalle de la vida y junto a sus proyectos en el municipio de jardín (el jardín de jardín y hecho en jardín) comparte historias de vida y hace actividades culturales que nutren la comunidad, empírico en las plantas por ser un fiel amante a ellas.'
         }
     },
@@ -189,7 +189,7 @@ export const events = [
         },
         planner: {
             name: 'Alexander Zapata',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/alexander-zapata.jpeg',
             description: 'Administrador de Empresas, Magíster en Educación y biodescodificador. Neurofacilitador apasionado por el desarrollo humano integral. Deportista de alto rendimiento y Master Trainer en Eneagrama Game. Miembro activo de la Asociación Colombiana de Eneagrama, combina sus conocimientos gerenciales, pedagógicos, de biodescodificación, y enneagrama para inspirar el crecimiento personal y profesional.'
         }
     },
@@ -199,7 +199,7 @@ export const events = [
         subtitle: 'La danza como herramienta de desarrollo personal',
         description: '¿Sabías que la danza además de  desestresarte y ser un espectáculo puede expandir tu corazón y consciencia?',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/charla-teorico-practica.jpeg'
         ],
         availablePlaces: Infinity,
         price: 12,
@@ -216,7 +216,7 @@ export const events = [
         },
         planner: {
             name: 'Aliria Serna E.',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/aliria-serna.jpeg',
             description: 'A lo largo de mi vida he nutrido mi SER a través de diversas disciplinas holísticas y también a través de mi primera profesión, Ingeniería Eléctrica. A finales del 2005 conocí y me enamoré de la Biodanza. Dejé mi profesión de Ingeniera, viaje a San Francisco, CA (USA), donde me formé, me certifique (2012) e inicié mis primeras prácticas en esta nueva profesión y misión de vida. Mi profundización y expansión del Ser continúan. Actualmente vivo y facilito grupo semanal y talleres de Biodanza en Jardín, Ant.'
         }
     },
@@ -253,7 +253,7 @@ export const events = [
         subtitle: '',
         description: '',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/almuerzo-saludable.jpeg'
         ],
         availablePlaces: Infinity,
         price: 30,
@@ -263,14 +263,14 @@ export const events = [
         shedules: '1:00PM - 2:30PM',
         meetingPlace: 'Vereda la Salada',
         company: {
-            name: 'Revolucion Bananera',
+            name: 'Revolución Bananera',
             logo: 'https://placehold.jp/600x400.png',
             instagram: "https://www.instagram.com/revolucionbananera/",
             phone: "3196606779"
         },
         planner: {
             name: 'Dayana',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/revolucion-bananera.jpeg',
             description: ''
         }
     },
@@ -280,7 +280,8 @@ export const events = [
         subtitle: '',
         description: 'Inscripción previa',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/taller-de-reflexologia-podal.jpeg',
+            'events-imgs/taller-de-reflexologia-podal-zoom.jpeg'
         ],
         availablePlaces: 8,
         price: 44,
@@ -307,7 +308,7 @@ export const events = [
         subtitle: 'Abre el corazón para recibir los regalos de la madre tierra."',
         description: '75.000$ con transporte',
         imgs: [
-            'https://placehold.jp/600x400.png',
+            'events-imgs/sesion-de-temazcal.jpeg',
         ],
         availablePlaces: Infinity,
         price: 60,
@@ -324,7 +325,7 @@ export const events = [
         },
         planner: {
             name: 'Luis Cardenas',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/luis-cardenas.jpeg',
             description: 'Soy médico herbolario,amante de la naturaleza,aprendiz de chamanismo realicé mi búsqueda de visión en retiro de 7 años en la selva de Putumayo con taitas o chamanes indígenas. Actualmente estoy realizando y expandiendo mi camino espiritual levantando el recuerdo ancestral de la medicina temazcal considerada la primer medicina que le regaló la naturaleza al ser humano...me siento honrado de compartir nuestras raíces con personas del mundo entero. ¡Aho!'
         }
     },
@@ -334,7 +335,7 @@ export const events = [
         subtitle: 'Una herramienta de auto-observación  consciente.',
         description: '',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/microdosis.jpeg'
         ],
         availablePlaces: 15,
         price: 25,
@@ -351,7 +352,7 @@ export const events = [
         },
         planner: {
             name: 'Marcela Arenas',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/marcela-arenas.jpeg',
             description: 'Graduada en Biología, autodidacta y estudiante en bioneuroemoción, formada  como PL, indagadora del mundo metafísico y amante  de los hongos, la naturaleza  y la montaña. De los procesos que experimenta mi ser, deseo compartir, vivencias, herramientas y procesos, bajados a mi propia piel, que me llevan a transitar esta existencia de una manera más expansiva.  Cultivo hongos en casa, para autoconsumo, comparto clases on line y presencial sobre el tema y proporciono “CacaoFungi” con el objetivo de mostrar las microdosis de honguitos Psilocybes, como una herramienta de bien-estar.'
         }
     },
@@ -361,7 +362,7 @@ export const events = [
         subtitle: '',
         description: 'Llevar mat de yoga y mantita. Opcional: Microdosis de honguitos 🍄 en cobertura de cacao a 10.000 COP. Asesórate previamente',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/bano-de-gong.jpeg'
         ],
         availablePlaces: Infinity,
         price: 22,
@@ -405,7 +406,7 @@ export const events = [
         },
         planner: {
             name: 'Eva Castro',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/eva-castro.jpeg',
             description: 'Lcda. en lenguas extranjeras, instructora de yoga, masajista y terapeuta por Amor a las artes místicas, psicomagas, holisticas y devocionales a María Magdalena y su mensaje. Gracias a la conexión profunda con la naturaleza y a mí ser sensible creé un alojamiento eco-consciente para el cultivo del ser y la conciencia ambientalista, donde a través de la comida buscó transformar la alimentación por medio del color y recetas vegetarianas/veganas que me permiten hacer activismo Amoroso con mis huéspedes, plantamos la semilla del amor propio a través de los sentidos con nuestro desayuno, yoga, meditación, música, círculos de palabra y demás artes que invitan a abrazarnos más como seres completos y únicos.'
         }
     },
@@ -432,7 +433,7 @@ export const events = [
         },
         planner: {
             name: 'Eva Castro',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/eva-castro.jpeg',
             description: 'Lcda. en lenguas extranjeras, instructora de yoga, masajista y terapeuta por Amor a las artes místicas, psicomagas, holisticas y devocionales a María Magdalena y su mensaje. Gracias a la conexión profunda con la naturaleza y a mí ser sensible creé un alojamiento eco-consciente para el cultivo del ser y la conciencia ambientalista, donde a través de la comida buscó transformar la alimentación por medio del color y recetas vegetarianas/veganas que me permiten hacer activismo Amoroso con mis huéspedes, plantamos la semilla del amor propio a través de los sentidos con nuestro desayuno, yoga, meditación, música, círculos de palabra y demás artes que invitan a abrazarnos más como seres completos y únicos.'
         }
     },
@@ -442,7 +443,7 @@ export const events = [
         subtitle: '',
         description: 'Libros, Ropa, checheres y guevonaditas . Trae las cositas que ya no uses y que estén en buen estado',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/trueque-trueque.jpeg'
         ],
         availablePlaces: Infinity,
         price: 20,
@@ -459,10 +460,11 @@ export const events = [
         },
         planner: {
             name: 'Andrés Restrepo',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/andres-restrepo',
             description: 'Estudio de todo y no se graduó de nada , se la pasa aprendiendo de cada detalle de la vida y junto a sus proyectos en el municipio de jardín (el jardín de jardín y hecho en jardín) comparte historias de vida y hace actividades culturales que nutren la comunidad, empírico en las plantas por ser un fiel amante a ellas.'
         }
-    }, {
+    },
+    {
         id: '18',
         title: 'Cena y clausura',
         subtitle: '',
@@ -485,7 +487,7 @@ export const events = [
         },
         planner: {
             name: 'Andrés Restrepo',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/andres-restrepo',
             description: 'Estudio de todo y no se graduó de nada , se la pasa aprendiendo de cada detalle de la vida y junto a sus proyectos en el municipio de jardín (el jardín de jardín y hecho en jardín) comparte historias de vida y hace actividades culturales que nutren la comunidad, empírico en las plantas por ser un fiel amante a ellas.'
         }
     }
