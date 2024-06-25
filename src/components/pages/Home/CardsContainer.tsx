@@ -1,15 +1,16 @@
 import styled from 'styled-components'
-import { users } from './../../../data/usersData'
+import { events } from '../../../data/eventsData'
+import Card from '../../ui/Card/Card'
 
 const CardsContainer = () => {
     return (
         <CardsContainerStyled>
-            {users.map(user => {
+            {events.map(event => {
                 return (
-                    <section>
-                        <h2>{user.event.eventName}</h2>
-                        <img src={user.event.eventImgs[0]} alt={user.event.eventName} />
-                    </section>
+                    <Card
+                        key={event.id}
+                        event={event}
+                    />
                 )
             })}
         </CardsContainerStyled>
