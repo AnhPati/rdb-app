@@ -1,11 +1,12 @@
+import { BsFilePdf } from "react-icons/bs";
 import styled from "styled-components";
 
 const Footer = () => {
     return (
         <FooterStyled>
-            <a href="">Descargar nuestro programa</a>
+            <a href=""><BsFilePdf /> Descargar nuestro programa</a>
             <a href="">Hecho con ❤️ por AnhPati</a>
-            <a href="">A cerca de la Ruta del Bienestar</a>
+            {/* <a href="">A cerca de la Ruta del Bienestar</a> */}
         </FooterStyled>
     )
 }
