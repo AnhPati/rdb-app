@@ -21,5 +21,21 @@ const HeroStyled = styled.div`
     .logo-container {
         transform: scale(2.5);
         margin-left: 70px;
+
+        .st0 {
+            fill: #203C25;
+        }
+
+        .st1 {
+            fill: #FFF;
+        }
+
+        h1 {
+            color: #203C25;
+        }
+
+        sub {
+            color: #2A7E3B;
+        }
     }
 `;

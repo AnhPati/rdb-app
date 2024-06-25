@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Logo } from "./Logo";
 
 type LogoPropsType = {
   className?: string
@@ -7,9 +8,7 @@ type LogoPropsType = {
 export const LogoContainer = ({ className }: LogoPropsType) => {
   return (
     <LogoContainerStyled className={className}>
-      <div className="img-container">
-        <img src="/aguacate.svg" alt="Logo de la Ruta del Bienestar" />
-      </div>
+      <Logo />
       <div className="logo-title-container">
         <h1>Ruta <span>del Bienestar</span></h1>
         <sub>- en Jardín -</sub>
@@ -22,15 +21,6 @@ const LogoContainerStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  .img-container {
-      width: 30px;
-
-      img {
-          width: 100%;
-      }
-  }
-
   .logo-title-container {
       display: flex;
       flex-direction: column;

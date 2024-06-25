@@ -28,12 +28,13 @@ type EventPropsType = {
             img: string,
             description: string
         }
-    }
+    },
+    id: string
 }
 
-const Card = ({ event }: EventPropsType) => {
+const Card = ({ event, id }: EventPropsType) => {
     return (
-        <CardStyled>
+        <CardStyled id={id}>
             <CardHero
                 title={event.title}
                 subtitle={event.subtitle}

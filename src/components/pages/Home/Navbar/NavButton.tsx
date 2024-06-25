@@ -3,18 +3,19 @@ import styled from "styled-components"
 
 type NavButtonPropsType = {
     onClick?: () => unknown,
-    Icon: ReactElement
+    Icon: ReactElement,
+    anchor: string
 }
 
-export const NavButton = ({ onClick, Icon }: NavButtonPropsType) => {
+export const NavButton = ({ onClick, Icon, anchor }: NavButtonPropsType) => {
     return (
-        <NavButtonStyled onClick={onClick}>
+        <NavButtonStyled onClick={onClick} href={anchor}>
             {Icon}
         </NavButtonStyled>
     )
 }
 
-const NavButtonStyled = styled.button`
+const NavButtonStyled = styled.a`
     padding: 10px;
     background: #3e9b4f;
     color: #FFF;

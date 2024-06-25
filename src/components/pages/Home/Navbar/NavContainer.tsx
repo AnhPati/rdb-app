@@ -4,7 +4,6 @@ import { NavButton } from "./NavButton";
 import { navButtonsConfig } from "./navButtonsConfig";
 
 export const NavContainer = () => {
-
     const buttonsConfig = navButtonsConfig
 
     return (
@@ -15,6 +14,7 @@ export const NavContainer = () => {
                     <NavButton
                         key={button.id}
                         Icon={button.Icon}
+                        anchor={button.anchor}
                     />
                 ))}
             </div>
