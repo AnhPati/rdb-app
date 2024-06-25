@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { CardHero } from './CardHero'
 import { CardInfos } from './CardInfos'
+import { AvailablePlacesSticker } from './AvailablePlacesSticker'
 
 type EventPropsType = {
     event: {
@@ -50,9 +51,9 @@ const Card = ({ event }: EventPropsType) => {
                 company={event.company}
             />
             {event.availablePlaces !== Infinity && (
-                <div className='available_places-container'>
-                    {event.availablePlaces} cupos
-                </div>
+                <AvailablePlacesSticker
+                    availablePlaces={event.availablePlaces}
+                />
             )}
         </CardStyled>
     )
@@ -69,21 +70,4 @@ const CardStyled = styled.section`
     align-items: center;
     background: #E9F6E9;
     padding: 10px;
-
-    .available_places-container {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        height: 50px;
-        width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #3E9B4F;
-        color: #FFF;
-        font-family: "Noto Serif", serif;;
-        font-size: 9px;
-        font-weight: 700;
-        border-radius: 50%;
-    }
 `;
