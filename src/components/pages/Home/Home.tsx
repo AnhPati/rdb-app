@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Hero from "./Hero"
 import Navbar from "./Navbar/Navbar"
 import CardsContainer from "./CardsContainer"
+import Footer from "../Footer"
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero />
             <Navbar />
             <CardsContainer />
+            <Footer />
         </HomeStyled>
     )
 }
