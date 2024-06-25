@@ -168,13 +168,13 @@ export const events = [
     },
     {
         id: '7',
-        title: 'Yoga, ser y sentir',
+        title: 'Cada cerebro es un mundo',
         subtitle: '',
-        description: 'llevar mat de yoga y ropa comoda',
+        description: '¡Conoce tu cerebro a través de un juego y descubre como puedes transformar tu vida!',
         imgs: [
             'https://placehold.jp/600x400.png'
         ],
-        availablePlaces: Infinity,
+        availablePlaces: 10,
         price: 25,
         month: 'Junio',
         date: '27',
@@ -249,6 +249,33 @@ export const events = [
     },
     {
         id: '10',
+        title: 'Almuerzo saludable',
+        subtitle: '',
+        description: '',
+        imgs: [
+            'https://placehold.jp/600x400.png'
+        ],
+        availablePlaces: Infinity,
+        price: 30,
+        month: 'Junio',
+        date: '28',
+        day: 'Viernes',
+        shedules: '1:00PM - 2:30PM',
+        meetingPlace: 'Vereda la Salada',
+        company: {
+            name: 'Revolucion Bananera',
+            logo: 'https://placehold.jp/600x400.png',
+            instagram: "https://www.instagram.com/revolucionbananera/",
+            phone: "3196606779"
+        },
+        planner: {
+            name: 'Dayana',
+            img: 'https://placehold.jp/600x400.png',
+            description: ''
+        }
+    },
+    {
+        id: '11',
         title: 'Taller de Reflexología Podal',
         subtitle: '',
         description: 'Inscripción previa',
@@ -275,7 +302,7 @@ export const events = [
         }
     },
     {
-        id: '11',
+        id: '12',
         title: 'Sesión de Temazcal',
         subtitle: 'Abre el corazón para recibir los regalos de la madre tierra."',
         description: '75.000$ con transporte',
@@ -302,7 +329,7 @@ export const events = [
         }
     },
     {
-        id: '12',
+        id: '13',
         title: 'Microdosis',
         subtitle: 'Una herramienta de auto-observación  consciente.',
         description: '',
@@ -329,7 +356,7 @@ export const events = [
         }
     },
     {
-        id: '13',
+        id: '14',
         title: 'Baño de Gong',
         subtitle: '',
         description: 'Llevar mat de yoga y mantita. Opcional: Microdosis de honguitos 🍄 en cobertura de cacao a 10.000 COP. Asesórate previamente',
@@ -356,7 +383,7 @@ export const events = [
         }
     },
     {
-        id: '14',
+        id: '15',
         title: 'Yoga- Desayuno Arcoíris',
         subtitle: '',
         description: 'Se requiere reserva.',
@@ -380,33 +407,6 @@ export const events = [
             name: 'Eva Castro',
             img: 'https://placehold.jp/600x400.png',
             description: 'Lcda. en lenguas extranjeras, instructora de yoga, masajista y terapeuta por Amor a las artes místicas, psicomagas, holisticas y devocionales a María Magdalena y su mensaje. Gracias a la conexión profunda con la naturaleza y a mí ser sensible creé un alojamiento eco-consciente para el cultivo del ser y la conciencia ambientalista, donde a través de la comida buscó transformar la alimentación por medio del color y recetas vegetarianas/veganas que me permiten hacer activismo Amoroso con mis huéspedes, plantamos la semilla del amor propio a través de los sentidos con nuestro desayuno, yoga, meditación, música, círculos de palabra y demás artes que invitan a abrazarnos más como seres completos y únicos.'
-        }
-    },
-    {
-        id: '15',
-        title: 'Trueque-Trueque',
-        subtitle: '',
-        description: 'Libros, Ropa, checheres y guevonaditas . Trae las cositas que ya no uses y que estén en buen estado',
-        imgs: [
-            'https://placehold.jp/600x400.png'
-        ],
-        availablePlaces: Infinity,
-        price: 20,
-        month: 'Junio',
-        date: '30',
-        day: 'Domingo',
-        shedules: '12:00PM\n-\n2:00PM',
-        meetingPlace: 'Hecho en Jardín',
-        company: {
-            name: 'Hecho en Jardín',
-            logo: 'https://placehold.jp/600x400.png',
-            instagram: "https://www.instagram.com/hechoenjardin/",
-            phone: "3017830855"
-        },
-        planner: {
-            name: 'Andrés Restrepo',
-            img: 'https://placehold.jp/600x400.png',
-            description: 'Estudio de todo y no se graduó de nada , se la pasa aprendiendo de cada detalle de la vida y junto a sus proyectos en el municipio de jardín (el jardín de jardín y hecho en jardín) comparte historias de vida y hace actividades culturales que nutren la comunidad, empírico en las plantas por ser un fiel amante a ellas.'
         }
     },
     {
@@ -436,4 +436,57 @@ export const events = [
             description: 'Lcda. en lenguas extranjeras, instructora de yoga, masajista y terapeuta por Amor a las artes místicas, psicomagas, holisticas y devocionales a María Magdalena y su mensaje. Gracias a la conexión profunda con la naturaleza y a mí ser sensible creé un alojamiento eco-consciente para el cultivo del ser y la conciencia ambientalista, donde a través de la comida buscó transformar la alimentación por medio del color y recetas vegetarianas/veganas que me permiten hacer activismo Amoroso con mis huéspedes, plantamos la semilla del amor propio a través de los sentidos con nuestro desayuno, yoga, meditación, música, círculos de palabra y demás artes que invitan a abrazarnos más como seres completos y únicos.'
         }
     },
+    {
+        id: '17',
+        title: 'Trueque-Trueque',
+        subtitle: '',
+        description: 'Libros, Ropa, checheres y guevonaditas . Trae las cositas que ya no uses y que estén en buen estado',
+        imgs: [
+            'https://placehold.jp/600x400.png'
+        ],
+        availablePlaces: Infinity,
+        price: 20,
+        month: 'Junio',
+        date: '30',
+        day: 'Domingo',
+        shedules: '5:00PM\n-\n7:00PM',
+        meetingPlace: 'Hecho en Jardín',
+        company: {
+            name: 'Hecho en Jardín',
+            logo: 'https://placehold.jp/600x400.png',
+            instagram: "https://www.instagram.com/hechoenjardin/",
+            phone: "3017830855"
+        },
+        planner: {
+            name: 'Andrés Restrepo',
+            img: 'https://placehold.jp/600x400.png',
+            description: 'Estudio de todo y no se graduó de nada , se la pasa aprendiendo de cada detalle de la vida y junto a sus proyectos en el municipio de jardín (el jardín de jardín y hecho en jardín) comparte historias de vida y hace actividades culturales que nutren la comunidad, empírico en las plantas por ser un fiel amante a ellas.'
+        }
+    }, {
+        id: '18',
+        title: 'Cena y clausura',
+        subtitle: '',
+        description: '',
+        imgs: [
+            'https://placehold.jp/600x400.png'
+        ],
+        availablePlaces: Infinity,
+        price: 0,
+        month: 'Junio',
+        date: '30',
+        day: 'Domingo',
+        shedules: '7:00PM\n-\n9:00PM',
+        meetingPlace: 'Vivero El jardín de Jardín',
+        company: {
+            name: 'Hecho en Jardín',
+            logo: 'https://placehold.jp/600x400.png',
+            instagram: "https://www.instagram.com/eljardindejardin/",
+            phone: "3017830855"
+        },
+        planner: {
+            name: 'Andrés Restrepo',
+            img: 'https://placehold.jp/600x400.png',
+            description: 'Estudio de todo y no se graduó de nada , se la pasa aprendiendo de cada detalle de la vida y junto a sus proyectos en el municipio de jardín (el jardín de jardín y hecho en jardín) comparte historias de vida y hace actividades culturales que nutren la comunidad, empírico en las plantas por ser un fiel amante a ellas.'
+        }
+    }
 ]
