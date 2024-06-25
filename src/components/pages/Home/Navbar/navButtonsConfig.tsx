@@ -1,21 +1,15 @@
 
-import { LuArrowDown, LuArrowDownToLine, LuArrowUp, LuArrowUpToLine } from "react-icons/lu";
+import { LuArrowDownToLine, LuArrowUpToLine } from "react-icons/lu";
 
 export const navButtonsConfig = [
     {
         id: '1',
-        Icon: <LuArrowDownToLine />
+        Icon: <LuArrowDownToLine />,
+        anchor: '#card_list-top'
     },
     {
         id: '2',
-        Icon: <LuArrowDown />
-    },
-    {
-        id: '3',
-        Icon: <LuArrowUp />
-    },
-    {
-        id: '4',
-        Icon: <LuArrowUpToLine />
+        Icon: <LuArrowUpToLine />,
+        anchor: '#card_list-bottom'
     },
 ]
