@@ -55,7 +55,7 @@ const EventInfosStyled = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
         padding: 0 10px;
 
         &:nth-child(2) {

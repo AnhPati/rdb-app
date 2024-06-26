@@ -14,7 +14,14 @@ export const EventLocation = ({ meetingPlace }: EventLocationPropsType) => {
 }
 
 const EventLocationStyled = styled.p`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 14px;
     text-align: center;
     font-weight: 300;
+
+    svg {
+        font-size: 20px;
+    }
 `;
