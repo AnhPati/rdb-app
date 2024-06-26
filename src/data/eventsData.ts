@@ -88,7 +88,7 @@ export const events = [
         subtitle: '',
         description: 'Aporte voluntario con inscripción previa',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/escuchemos-juntos-una-historia.jpg'
         ],
         availablePlaces: Infinity,
         price: 0,
@@ -106,7 +106,7 @@ export const events = [
 
         planner: {
             name: 'Alejandra Cuarán',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/alejandra-cuaran.jpeg',
             description: 'Soy docente de idiomas y exploradora de la vida. Busco conectar proyectos culturales y educativos que generen impacto positivo en Jardín. El bien-estar y el trabajo personal consciente es lo que me mueve día a dia.  Me encanta explorar nuevas formas de aprender y desaprender. Crear diálogos entre culturas es mi proyecto de vida.'
         }
     },
@@ -226,7 +226,7 @@ export const events = [
         subtitle: 'Conversatorio - muestra - sesión',
         description: 'Ven y conoce la danza Odissi, danza clásica de la India. Aquí podrás disfrutar de un espacio para conectar con tu naturaleza sagrada a través del movimiento.',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/danza-odissi.png'
         ],
         availablePlaces: Infinity,
         price: 15,
@@ -243,7 +243,7 @@ export const events = [
         },
         planner: {
             name: 'Cristian Vasco Lopera.',
-            img: 'https://placehold.jp/600x400.png',
+            img: 'companies/cristian-vasco-lopera.png',
             description: '¡Hola! Me llamo Cristian, soy maestro en artes visuales; me dedico al arte de la escultura y paralelamente a la danza Odissi. Me complace compartir con ustedes ésta maravillosa experiencia con la danza y transmitir las bondades físicas, emocionales y espirituales que he obtenido de ella a través de los años.'
         }
     },
@@ -389,7 +389,7 @@ export const events = [
         subtitle: '',
         description: 'Se requiere reserva.',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/yoga-desayuno-arcoiris.jpeg'
         ],
         availablePlaces: Infinity,
         price: 30,
@@ -416,7 +416,7 @@ export const events = [
         subtitle: 'Sanando el toque.',
         description: 'Parejas 30.000. Requiere reserva',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'events-imgs/taller-de-masaje.jpeg'
         ],
         availablePlaces: 8,
         price: 20,
@@ -480,7 +480,7 @@ export const events = [
         shedules: '7:00PM\n-\n9:00PM',
         meetingPlace: 'Vivero El jardín de Jardín',
         company: {
-            name: 'Hecho en Jardín',
+            name: 'Jardín de Jardín',
             logo: 'https://placehold.jp/600x400.png',
             instagram: "https://www.instagram.com/eljardindejardin/",
             phone: "3017830855"
