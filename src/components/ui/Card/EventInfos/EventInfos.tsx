@@ -46,6 +46,7 @@ export const EventInfos = ({ description, month, date, day, meetingPlace, shedul
 }
 
 const EventInfosStyled = styled.div`
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 

@@ -64,11 +64,10 @@ export default Card
 
 const CardStyled = styled.section`
     position: relative;
-    max-width: 900px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #E9F6E9;
     padding: 10px;
 `;

@@ -28,6 +28,7 @@ const CardsContainerStyled = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #E9F6E9;
 
     #card_list-top {
         position: absolute;
