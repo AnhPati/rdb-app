@@ -1,3 +1,4 @@
+import { FaMapLocationDot } from "react-icons/fa6";
 import styled from "styled-components";
 
 type EventLocationPropsType = {
@@ -7,7 +8,7 @@ type EventLocationPropsType = {
 export const EventLocation = ({ meetingPlace }: EventLocationPropsType) => {
     return (
         <EventLocationStyled>
-            {meetingPlace}
+            <FaMapLocationDot />{meetingPlace}
         </EventLocationStyled>
     )
 }
