@@ -98,8 +98,8 @@ export const events = [
         month: 'Junio',
         date: '26',
         day: 'Miércoles',
-        shedules: '6:15 - 8PM',
-        meetingPlace: 'Parque Educativo',
+        shedules: '7 - 8:30PM',
+        meetingPlace: 'TEPUYE (calle 11#5-16)',
         company: {
             name: 'Hablea',
             logo: 'https://placehold.jp/600x400.png',
@@ -120,7 +120,7 @@ export const events = [
         subtitle: '',
         description: 'Inscripción previa, cupos limitados',
         imgs: [
-            'rdb-placeholder.jpg'
+            'events-imgs/apalabrar.jpeg'
         ],
         availablePlaces: 15,
         price: 35,
@@ -495,12 +495,12 @@ export const events = [
         date: '30',
         day: 'Domingo',
         shedules: '7 - 9PM',
-        meetingPlace: 'Vivero El jardín de Jardín',
+        meetingPlace: 'Hecho en Jardín',
         company: {
-            name: 'Jardín de Jardín',
+            name: 'Hecho en Jardín',
             logo: 'https://placehold.jp/600x400.png',
             website: '',
-            instagram: "https://www.instagram.com/eljardindejardin/",
+            instagram: "https://www.instagram.com/hechoenjardin/",
             phone: "3017830855"
         },
         planner: {
