@@ -23,7 +23,11 @@ export const EventContact = ({ planner, company }: EventContactPropsType) => {
             </div>
             <div>
                 <a href={`tel:${company.phone}`}><BsPhone /> {company.phone}</a>
-                <a href={company.instagram}><BsInstagram /> {company.name}</a>
+                {company.instagram.length > 0 && (
+                    <a href={company.instagram}>
+                        <BsInstagram /> {company.name}
+                    </a>
+                )}
             </div>
         </EventContactStyled>
     )
