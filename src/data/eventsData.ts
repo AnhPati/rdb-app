@@ -5,7 +5,7 @@ export const events = [
         subtitle: '',
         description: 'Llevar mat de yoga y ropa comoda',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'rdb-placeholder.jpg'
         ],
         availablePlaces: Infinity,
         price: 10,
@@ -120,7 +120,7 @@ export const events = [
         subtitle: '',
         description: 'Inscripción previa, cupos limitados',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'rdb-placeholder.jpg'
         ],
         availablePlaces: 15,
         price: 35,
@@ -178,7 +178,7 @@ export const events = [
         subtitle: '',
         description: '¡Conoce tu cerebro a través de un juego y descubre como puedes transformar tu vida!',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'rdb-placeholder.jpg'
         ],
         availablePlaces: 10,
         price: 25,
@@ -487,7 +487,7 @@ export const events = [
         subtitle: '',
         description: '',
         imgs: [
-            'https://placehold.jp/600x400.png'
+            'rdb-placeholder.jpg'
         ],
         availablePlaces: Infinity,
         price: 0,
