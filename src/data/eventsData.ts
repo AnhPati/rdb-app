@@ -289,7 +289,7 @@ export const events = [
         date: '28',
         day: 'Viernes',
         shedules: '3:00PM',
-        meetingPlace: 'Parque educativo',
+        meetingPlace: 'Hacienda 3, Aula HABLEA',
         company: {
             name: 'Cloto',
             logo: 'https://placehold.jp/600x400.png',
