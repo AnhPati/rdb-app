@@ -12,7 +12,7 @@ export const events = [
         month: 'Junio',
         date: '26',
         day: 'Miércoles',
-        shedules: '7:00AM',
+        shedules: '7AM',
         meetingPlace: 'Escuela de música',
         company: {
             name: 'Ser y sentir Jardín',
@@ -40,7 +40,7 @@ export const events = [
         month: 'Junio',
         date: '26',
         day: 'Miércoles',
-        shedules: '9:30AM\n-\n1:00PM',
+        shedules: '9:30AM - 1PM',
         meetingPlace: 'Escuela de Música',
         company: {
             name: 'Biologíacons Ciente',
@@ -67,7 +67,7 @@ export const events = [
         month: 'Junio',
         date: '26',
         day: 'Miércoles',
-        shedules: '3:30PM\n-\n5:30PM',
+        shedules: '3:30 - 5:30PM',
         meetingPlace: 'Hostal Casa Sol y Montaña - Vereda la Salada',
         company: {
             name: '',
@@ -95,7 +95,7 @@ export const events = [
         month: 'Junio',
         date: '26',
         day: 'Miércoles',
-        shedules: '6:15PM\n-\n8:00PM',
+        shedules: '6:15 - 8PM',
         meetingPlace: 'Parque Educativo',
         company: {
             name: 'Hablea',
@@ -123,7 +123,7 @@ export const events = [
         month: 'Junio',
         date: '27',
         day: 'Jueves',
-        shedules: '9:00AM',
+        shedules: '9AM',
         meetingPlace: 'TEPUYE (calle 11#5-16)',
         company: {
             name: '',
@@ -151,7 +151,7 @@ export const events = [
         month: 'Junio',
         date: '27',
         day: 'Jueves',
-        shedules: '12:00PM\n-\n2:00PM',
+        shedules: '12 - 2:00PM',
         meetingPlace: 'El jardín de Jardín',
         company: {
             name: 'El jardín de Jardín',
@@ -179,7 +179,7 @@ export const events = [
         month: 'Junio',
         date: '27',
         day: 'Jueves',
-        shedules: '5:30PM\n-\n7:30AM',
+        shedules: '5:30 - 7:30PM',
         meetingPlace: 'Escuela de música',
         company: {
             name: 'Ser y sentir Jardín',
@@ -206,7 +206,7 @@ export const events = [
         month: 'Junio',
         date: '28',
         day: 'Viernes',
-        shedules: '8:30AM\n-\n10:30AM',
+        shedules: '8:30 - 10:30AM',
         meetingPlace: 'Parque Educativo de Jardín, Ant.',
         company: {
             name: '',
@@ -233,7 +233,7 @@ export const events = [
         month: 'Junio',
         date: '28',
         day: 'Viernes',
-        shedules: '10:30AM\n-\n12:30PM',
+        shedules: '10:30AM - 12:30PM',
         meetingPlace: 'Parque educativo',
         company: {
             name: '',
@@ -260,7 +260,7 @@ export const events = [
         month: 'Junio',
         date: '28',
         day: 'Viernes',
-        shedules: '1:00PM - 2:30PM',
+        shedules: '1 - 2:30PM',
         meetingPlace: 'Vereda la Salada',
         company: {
             name: 'Revolución Bananera',
@@ -288,7 +288,7 @@ export const events = [
         month: 'Junio',
         date: '28',
         day: 'Viernes',
-        shedules: '3:00PM',
+        shedules: '3PM',
         meetingPlace: 'Hacienda 3, Aula HABLEA',
         company: {
             name: 'Cloto',
@@ -315,7 +315,7 @@ export const events = [
         month: 'Junio',
         date: '29',
         day: 'Sabado',
-        shedules: '9:30AM\n-\n12:00PM',
+        shedules: '9:30AM - 12PM',
         meetingPlace: 'Temazcal Jardín, vereda La Herrera',
         company: {
             name: 'Temazcal Jardín',
@@ -342,7 +342,7 @@ export const events = [
         month: 'Junio',
         date: '29',
         day: 'Sabado',
-        shedules: '4:00PM\n-\n5:30PM',
+        shedules: '4 - 5:30PM',
         meetingPlace: 'Hacienda 3, AULA HABLEA',
         company: {
             name: 'Biologíacons Ciente',
@@ -369,7 +369,7 @@ export const events = [
         month: 'Junio',
         date: '29',
         day: 'Sabado',
-        shedules: '6:00PM\n-\n7:00PM',
+        shedules: '6 - 7PM',
         meetingPlace: 'Hacienda 3, Aula HABLEA',
         company: {
             name: 'Cloto',
@@ -396,7 +396,7 @@ export const events = [
         month: 'Junio',
         date: '30',
         day: 'Domingo',
-        shedules: '8:00AM\n-\n10:00AM',
+        shedules: '8 - 10AM',
         meetingPlace: 'Hostal Creo Ecolodge - Vda la salada Sector puente curvo-Jardin, Ant.',
         company: {
             name: 'Creo Ecolodge Jardín',
@@ -423,7 +423,7 @@ export const events = [
         month: 'Junio',
         date: '30',
         day: 'Domingo',
-        shedules: '2:00PM\n-\n4:00PM',
+        shedules: '2 - 4PM',
         meetingPlace: 'Hostal Creo Ecolodge - Vda la salada Sector puente curvo-Jardin, Ant.',
         company: {
             name: 'Creo Ecolodge Jardín',
@@ -450,7 +450,7 @@ export const events = [
         month: 'Junio',
         date: '30',
         day: 'Domingo',
-        shedules: '5:00PM\n-\n7:00PM',
+        shedules: '5 - 7PM',
         meetingPlace: 'Hecho en Jardín',
         company: {
             name: 'Hecho en Jardín',
@@ -477,7 +477,7 @@ export const events = [
         month: 'Junio',
         date: '30',
         day: 'Domingo',
-        shedules: '7:00PM\n-\n9:00PM',
+        shedules: '7 - 9PM',
         meetingPlace: 'Vivero El jardín de Jardín',
         company: {
             name: 'Jardín de Jardín',

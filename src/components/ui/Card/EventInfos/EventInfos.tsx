@@ -37,11 +37,9 @@ export const EventInfos = ({ description, month, date, day, meetingPlace, shedul
                 <EventShedules
                     shedules={shedules}
                 />
-                {price !== 0 && (
-                    <EventPrice
-                        price={price}
-                    />
-                )}
+                <EventPrice
+                    price={price}
+                />
             </div>
         </EventInfosStyled>
     )
