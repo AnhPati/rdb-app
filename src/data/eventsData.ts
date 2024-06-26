@@ -3,7 +3,7 @@ export const events = [
         id: '1',
         title: 'Yoga, ser y sentir',
         subtitle: '',
-        description: 'llevar mat de yoga y ropa comoda',
+        description: 'Llevar mat de yoga y ropa comoda',
         imgs: [
             'https://placehold.jp/600x400.png'
         ],
@@ -17,6 +17,7 @@ export const events = [
         company: {
             name: 'Ser y sentir Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/jardinserysentir/",
             phone: "3146040795"
         },
@@ -31,7 +32,7 @@ export const events = [
         id: '2',
         title: 'Forrajeo de hongos',
         subtitle: 'SALIDA DE CAMPO',
-        description: 'menores de 15 años, llevar acompañante adulto',
+        description: 'Menores de 15 años, llevar acompañante adulto',
         imgs: [
             'events-imgs/forrajeo-de-hongos.jpeg'
         ],
@@ -45,6 +46,7 @@ export const events = [
         company: {
             name: 'Biologíacons Ciente',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/biologiacons_ciente/",
             phone: "3117271024",
         },
@@ -72,6 +74,7 @@ export const events = [
         company: {
             name: '',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "",
             phone: "3147436939",
         },
@@ -100,6 +103,7 @@ export const events = [
         company: {
             name: 'Hablea',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/hablea_languages/",
             phone: "3208488198",
         },
@@ -126,8 +130,9 @@ export const events = [
         shedules: '9AM',
         meetingPlace: 'TEPUYE (calle 11#5-16)',
         company: {
-            name: '',
+            name: 'Mariana Ocampo B',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/marianaocampo.b/",
             phone: "310657372",
         },
@@ -156,6 +161,7 @@ export const events = [
         company: {
             name: 'El jardín de Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/eljardindejardin/",
             phone: "3017830855"
         },
@@ -182,8 +188,9 @@ export const events = [
         shedules: '5:30 - 7:30PM',
         meetingPlace: 'Escuela de música',
         company: {
-            name: 'Ser y sentir Jardín',
+            name: 'Bioenneagram',
             logo: 'https://placehold.jp/600x400.png',
+            website: 'www.bioenneagram.com',
             instagram: "",
             phone: "3004481819"
         },
@@ -211,6 +218,7 @@ export const events = [
         company: {
             name: '',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "",
             phone: "3147436939"
         },
@@ -238,6 +246,7 @@ export const events = [
         company: {
             name: '',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "",
             phone: "3234371939"
         },
@@ -265,6 +274,7 @@ export const events = [
         company: {
             name: 'Revolución Bananera',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/revolucionbananera/",
             phone: "3196606779"
         },
@@ -293,6 +303,7 @@ export const events = [
         company: {
             name: 'Cloto',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/cloto_masajes/",
             phone: "3117931658"
         },
@@ -320,6 +331,7 @@ export const events = [
         company: {
             name: 'Temazcal Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/temazcal.jardin/",
             phone: "3178271894"
         },
@@ -347,6 +359,7 @@ export const events = [
         company: {
             name: 'Biologíacons Ciente',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/biologiacons_ciente/",
             phone: "3117271024"
         },
@@ -374,6 +387,7 @@ export const events = [
         company: {
             name: 'Cloto',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/cloto_masajes/",
             phone: "3117931658"
         },
@@ -401,6 +415,7 @@ export const events = [
         company: {
             name: 'Creo Ecolodge Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/creoecolodgejardin/",
             phone: "3024428024"
         },
@@ -428,6 +443,7 @@ export const events = [
         company: {
             name: 'Creo Ecolodge Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/creoecolodgejardin/",
             phone: "3024428024"
         },
@@ -455,6 +471,7 @@ export const events = [
         company: {
             name: 'Hecho en Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/hechoenjardin/",
             phone: "3017830855"
         },
@@ -482,6 +499,7 @@ export const events = [
         company: {
             name: 'Jardín de Jardín',
             logo: 'https://placehold.jp/600x400.png',
+            website: '',
             instagram: "https://www.instagram.com/eljardindejardin/",
             phone: "3017830855"
         },

@@ -13,6 +13,7 @@ type CardInfosPropsType = {
     company: {
         name: string,
         logo: string,
+        website: string,
         instagram: string,
         phone: string
     },

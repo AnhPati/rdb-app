@@ -1,10 +1,12 @@
 import { BsInstagram, BsPhone } from 'react-icons/bs'
+import { TbWorld } from 'react-icons/tb'
 import styled from 'styled-components'
 
 type EventContactPropsType = {
     company: {
         name: string,
         logo: string,
+        website: string,
         instagram: string,
         phone: string
     },
@@ -23,6 +25,11 @@ export const EventContact = ({ planner, company }: EventContactPropsType) => {
             </div>
             <div>
                 <a href={`tel:${company.phone}`}><BsPhone /> {company.phone}</a>
+                {company.website.length > 0 && (
+                    <a href={company.website}>
+                        <TbWorld /> {company.name}
+                    </a>
+                )}
                 {company.instagram.length > 0 && (
                     <a href={company.instagram}>
                         <BsInstagram /> {company.name}
