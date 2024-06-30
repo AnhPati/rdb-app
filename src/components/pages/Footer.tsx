@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
 
             <p>
-                Hecho con ❤️ por <a href="https://github.com/AnhPati">AnhPati</a>
+                Hecho con ❤️ por <a href="https://github.com/AnhPati" target="_blank">AnhPati</a>
             </p>
             {/* <a href="">A cerca de la Ruta del Bienestar</a> */}
         </FooterStyled>
