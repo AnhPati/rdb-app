@@ -18,33 +18,34 @@ export const LogoContainer = ({ className }: LogoPropsType) => {
 }
 
 const LogoContainerStyled = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  .logo-title-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .logo-title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-      h1 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin: 0;
-          font-size: 24px;
-          font-weight: 500;
-          line-height: 0.9;
+        h1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 0.9;
 
-          span {
-              font-size: 10px;
-          }
-      }
+            span {
+                font-size: 10px;
+            }
+        }
 
-      sub {
-          margin-top: 2px;
-          font-family: "Noto Serif", serif;
-          font-size: 8px;
-          font-weight: 300;
-      }
-  }
+        sub {
+            margin-top: 2px;
+            font-family: "Noto Serif", serif;
+            font-size: 8px;
+            font-weight: 300;
+        }
+    }
 `;

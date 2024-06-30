@@ -22,7 +22,7 @@ const NavbarStyled = styled.nav`
   position: sticky;
   bottom: 0;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   padding: 10px 10px;
   background: #3e9b4f;
   color: #FFF;

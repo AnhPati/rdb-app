@@ -5,10 +5,8 @@ import { EventContact } from './EventContact'
 type CardInfosPropsType = {
     description: string,
     price: number | null,
-    month: string,
-    date: string,
-    day: string,
-    shedules: string,
+    sheduleStart: string,
+    sheduleEnd: string,
     meetingPlace: string,
     company: {
         name: string,
@@ -24,15 +22,13 @@ type CardInfosPropsType = {
     }
 }
 
-export const CardInfos = ({ description, month, date, day, meetingPlace, shedules, price, planner, company }: CardInfosPropsType) => {
+export const CardInfos = ({ description, sheduleStart, sheduleEnd, meetingPlace, price, planner, company }: CardInfosPropsType) => {
     return (
         <CardInfosStyled>
             <EventInfos
                 description={description}
-                month={month}
-                date={date}
-                day={day}
-                shedules={shedules}
+                sheduleStart={sheduleStart}
+                sheduleEnd={sheduleEnd}
                 meetingPlace={meetingPlace}
                 price={price}
             />

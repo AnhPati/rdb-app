@@ -12,10 +12,8 @@ type EventPropsType = {
         imgs: string[],
         availablePlaces: number,
         price: number | null,
-        month: string,
-        date: string,
-        day: string,
-        shedules: string,
+        sheduleStart: string,
+        sheduleEnd: string,
         meetingPlace: string,
         company: {
             name: string,
@@ -30,12 +28,21 @@ type EventPropsType = {
             description: string
         }
     },
-    id: string
+    id: string,
+    className: string,
+    isPasted: boolean
 }
 
-const Card = ({ event, id }: EventPropsType) => {
+const Card = ({ event, id, className, isPasted }: EventPropsType) => {
     return (
-        <CardStyled id={id}>
+        <CardStyled id={id} className={className}>
+            {isPasted && (
+                <div className='past-overlay'>
+                    <h3>
+                        Evento realisado
+                    </h3>
+                </div>
+            )}
             <CardHero
                 title={event.title}
                 subtitle={event.subtitle}
@@ -43,11 +50,9 @@ const Card = ({ event, id }: EventPropsType) => {
             />
             <CardInfos
                 description={event.description}
-                month={event.month}
-                date={event.date}
-                day={event.day}
+                sheduleStart={event.sheduleStart}
+                sheduleEnd={event.sheduleEnd}
                 meetingPlace={event.meetingPlace}
-                shedules={event.shedules}
                 price={event.price}
                 planner={event.planner}
                 company={event.company}
@@ -71,4 +76,28 @@ const CardStyled = styled.section`
     justify-content: center;
     align-items: center;
     padding: 10px;
+
+    .past-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, .5);
+        z-index: 1;
+
+        h3 {
+            background: #FFF;
+            color: #203C25;
+            padding: 15px 20px;
+            border: solid 2px #203C25;
+            border-radius: 5px;
+            rotate: -20deg;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+    }
 `;

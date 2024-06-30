@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 type EventShedulesPropsType = {
-    shedules: string
+    start: string,
+    end: string
 }
 
-export const EventShedules = ({ shedules }: EventShedulesPropsType) => {
+export const EventShedules = ({ start, end }: EventShedulesPropsType) => {
     return (
         <EventShedulesStyled>
             Horario<br />
-            <sub>{shedules}</sub>
+            <sub>{start.slice(0, 5)} - {end.slice(0, 5)}</sub>
         </EventShedulesStyled>
     )
 }
